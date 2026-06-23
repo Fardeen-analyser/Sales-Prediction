@@ -14,7 +14,7 @@ st.set_page_config(
 # ======================================================
 # LOAD MODEL
 # ======================================================
-model = pickle.load(open(r"D:\\data_science_repo\\Sales\\model.pkl", "rb"))
+model = pickle.load(open(r"model.pkl", "rb"))
 
 # ======================================================
 # CUSTOM CSS
